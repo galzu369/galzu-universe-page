@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+@keyframes galzuFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) scale(1.03);
+  }
+}
+
+@keyframes galzuGlow {
+  0% {
+    opacity: 0.45;
+    filter: blur(20px);
+  }
+  100% {
+    opacity: 0.8;
+    filter: blur(32px);
+  }
+}
+
+@keyframes galzuSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.galzu-float {
+  animation: galzuFloat 6s ease-in-out infinite;
+}
+
+.galzu-glow {
+  animation: galzuGlow 2.8s ease-in-out infinite alternate;
+}
+
+.galzu-spin {
+  animation: galzuSpin 24s linear infinite;
+}
