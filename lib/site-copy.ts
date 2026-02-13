@@ -82,7 +82,7 @@ export type SiteCopy = {
 };
 
 const calendlyCta = {
-  en: "Book a Restaurant Solutions Call",
+  en: "Book a Call Now",
   pt: "Marcar Chamada de Solucoes para Restaurantes",
   es: "Reservar llamada de soluciones para restaurantes",
   fr: "Reserver un appel de solutions restaurant",
