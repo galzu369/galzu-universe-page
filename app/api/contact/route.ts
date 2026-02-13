@@ -1,5 +1,6 @@
 import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
+import { defaultLocale, isLocale } from "@/lib/i18n";
 
 const recipientEmail = "galzuconsult@gmail.com";
 
@@ -9,16 +10,25 @@ export async function POST(request: Request) {
     const name = String(formData.get("name") ?? "").trim();
     const email = String(formData.get("email") ?? "").trim();
     const message = String(formData.get("message") ?? "").trim();
+    const requestedLocale = String(formData.get("locale") ?? "").trim();
+    const locale = isLocale(requestedLocale) ? requestedLocale : defaultLocale;
+    const basePath = `/${locale}`;
 
     if (!name || !email || !message) {
-      return NextResponse.redirect(new URL("/?contact=error#contact", request.url), 303);
+      return NextResponse.redirect(
+        new URL(`${basePath}?contact=error#contact`, request.url),
+        303
+      );
     }
 
     const senderEmail = process.env.CONTACT_EMAIL_USER;
     const senderPassword = process.env.CONTACT_EMAIL_APP_PASSWORD;
 
     if (!senderEmail || !senderPassword) {
-      return NextResponse.redirect(new URL("/?contact=error#contact", request.url), 303);
+      return NextResponse.redirect(
+        new URL(`${basePath}?contact=error#contact`, request.url),
+        303
+      );
     }
 
     const transporter = nodemailer.createTransport({
@@ -44,9 +54,15 @@ export async function POST(request: Request) {
       `,
     });
 
-    return NextResponse.redirect(new URL("/?contact=sent#contact", request.url), 303);
+    return NextResponse.redirect(
+      new URL(`${basePath}?contact=sent#contact`, request.url),
+      303
+    );
   } catch {
-    return NextResponse.redirect(new URL("/?contact=error#contact", request.url), 303);
+    return NextResponse.redirect(
+      new URL(`/${defaultLocale}?contact=error#contact`, request.url),
+      303
+    );
   }
 }
 

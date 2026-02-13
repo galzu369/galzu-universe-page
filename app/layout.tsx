@@ -7,7 +7,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="pt-PT" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth">
       <body className="bg-slate-950 text-slate-100 antialiased">{children}</body>
     </html>
   );
