@@ -302,7 +302,116 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     ],
     servicesTitle: "Servicios",
     servicesKicker: "Creado para rendir",
-    services: [],
+    services: [
+      {
+        title: "Galzu construye para ti - Integracion de IA",
+        line: "Integracion de IA como infraestructura",
+        bestFor: "Mejor para: founders y equipos de operaciones",
+        bullets: [
+          "Automatizacion de flujos de trabajo personalizados",
+          "Agentes internos de IA",
+          "Creacion de landing pages",
+          "Dashboards de reportes con IA",
+          "Sistemas de soporte a la decision",
+          "Reestructuracion de procesos con IA",
+          "Integracion en equipos existentes",
+        ],
+        cta: "Reservar llamada de Integracion de IA",
+        rich: {
+          intro: [
+            "La IA no es un taller. No es una presentacion. No es prompts de ChatGPT.",
+            "Es infraestructura.",
+          ],
+          whatIDo:
+            "Diseno e integro sistemas de IA directamente en las operaciones del negocio. Esto se hace con tu empresa, no como teoria.",
+          whoFor: [
+            "Fundadores escalando operaciones",
+            "Empresas ahogadas en tareas repetitivas",
+            "Equipos atascados en procesos manuales",
+            "Negocios listos para aumentar output sin aumentar headcount",
+          ],
+          process: [
+            "Diagnostico Operativo - Mapeamos fricciones e ineficiencias.",
+            "Arquitectura del Sistema - Disenamos la capa de integracion de IA.",
+            "Implementacion - Construimos e integramos en tus flujos.",
+            "Optimizacion - Medimos impacto y refinamos.",
+          ],
+          positioning:
+            "No estas comprando consultoria de IA. Estas instalando un multiplicador operativo.",
+        },
+      },
+      {
+        title: "Consultoria para Restaurantes",
+        line: "La estructura protege el beneficio",
+        bestFor: "Mejor para: duenos y operadores de restaurantes",
+        bullets: [
+          "Control de food cost",
+          "Ingenieria de menu",
+          "Analisis de margen de contribucion",
+          "Desglose de estructura de costos",
+          "Flujo de cocina",
+          "Estructura de servicio",
+          "Estandarizacion",
+          "Documentacion de procesos",
+          "Claridad de roles",
+          "Estructura de rendimiento",
+          "Flujo de formacion",
+          "Alineacion de liderazgo",
+        ],
+        cta: "Reservar llamada de estrategia para restaurantes",
+        rich: {
+          intro: [
+            "Los restaurantes no fallan por falta de pasion.",
+            "Fallan por falta de claridad operativa.",
+          ],
+          whatIDo:
+            "Se trata de transformar un restaurante reactivo en un sistema de negocio controlado.",
+          optimizeGroups: [
+            {
+              title: "Estructura Financiera",
+              items: [
+                "Control de food cost",
+                "Ingenieria de menu",
+                "Analisis de margen de contribucion",
+                "Desglose de estructura de costos",
+              ],
+            },
+            {
+              title: "Flujo Operativo",
+              items: [
+                "Flujo de cocina",
+                "Estructura de servicio",
+                "Estandarizacion",
+                "Documentacion de procesos",
+              ],
+            },
+            {
+              title: "Equipo y Responsabilidad",
+              items: [
+                "Claridad de roles",
+                "Estructura de rendimiento",
+                "Flujo de formacion",
+                "Alineacion de liderazgo",
+              ],
+            },
+          ],
+          whoFor: [
+            "Duenos de restaurantes independientes",
+            "Grupos de hospitalidad en crecimiento",
+            "Operadores con presion de margen",
+            "Conceptos preparandose para escalar",
+          ],
+          process: [
+            "Diagnostico",
+            "Analisis Financiero y Operativo",
+            "Rediseno del Sistema",
+            "Soporte de Implementacion",
+          ],
+          positioning:
+            "El objetivo es margen predecible, costos controlados, calma operativa y una estructura escalable.",
+        },
+      },
+    ],
     servicePanel: {
       whatIDo: "Lo que realmente hago",
       whatIOptimize: "Lo que optimizo",
@@ -311,7 +420,24 @@ export const siteCopy: Record<Locale, SiteCopy> = {
       positioning: "Capa de posicionamiento",
     },
     processTitle: "Proceso",
-    steps: [],
+    steps: [
+      {
+        title: "Diagnosticar",
+        text: "Mapear restricciones y oportunidades con claridad brutal.",
+      },
+      {
+        title: "Arquitectar",
+        text: "Disenar sistemas que encajen con tu equipo y operacion real.",
+      },
+      {
+        title: "Implementar",
+        text: "Aplicar herramientas, rutinas y responsabilidad a nivel de ejecucion.",
+      },
+      {
+        title: "Optimizar",
+        text: "Medir resultados, ajustar cuellos de botella y proteger margen.",
+      },
+    ],
     stepLabel: "Paso",
     aboutTitle: "Sobre",
     aboutText:
@@ -365,7 +491,116 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     ],
     servicesTitle: "Services",
     servicesKicker: "Concu pour performer",
-    services: [],
+    services: [
+      {
+        title: "Galzu construit pour vous - Integration IA",
+        line: "Integration IA comme infrastructure",
+        bestFor: "Ideal pour: founders et equipes operationnelles",
+        bullets: [
+          "Automatisation de workflows sur mesure",
+          "Agents IA internes",
+          "Creation de landing pages",
+          "Tableaux de bord de reporting assistes par IA",
+          "Systemes d aide a la decision",
+          "Restructuration des processus avec IA",
+          "Integration aux equipes existantes",
+        ],
+        cta: "Reserver un appel d Integration IA",
+        rich: {
+          intro: [
+            "L IA n est pas un atelier. Ce n est pas une presentation. Ce n est pas des prompts ChatGPT.",
+            "C est une infrastructure.",
+          ],
+          whatIDo:
+            "Je conçois et integre des systemes IA directement dans vos operations. Cela se fait avec votre entreprise, pas comme simple theorie.",
+          whoFor: [
+            "Fondateurs en phase de scale",
+            "Entreprises noyees dans les taches repetitives",
+            "Equipes bloquees dans des processus manuels",
+            "Entreprises pretes a augmenter l output sans augmenter les effectifs",
+          ],
+          process: [
+            "Diagnostic Operationnel - Nous cartographions les frictions et inefficacites.",
+            "Architecture Systeme - Nous concevons la couche d integration IA.",
+            "Implementation - Nous construisons et deployons dans vos workflows.",
+            "Optimisation - Nous mesurons l impact et raffinons.",
+          ],
+          positioning:
+            "Vous n achetez pas du conseil IA. Vous installez un multiplicateur operationnel.",
+        },
+      },
+      {
+        title: "Conseil en restauration",
+        line: "La structure protege la marge",
+        bestFor: "Ideal pour: proprietaires et operateurs de restaurants",
+        bullets: [
+          "Controle du food cost",
+          "Ingenierie de menu",
+          "Analyse de marge de contribution",
+          "Detail de la structure de couts",
+          "Flux cuisine",
+          "Structure de service",
+          "Standardisation",
+          "Documentation des processus",
+          "Clarification des roles",
+          "Cadre de performance",
+          "Parcours de formation",
+          "Alignement du leadership",
+        ],
+        cta: "Reserver un appel de strategie restaurant",
+        rich: {
+          intro: [
+            "Les restaurants n echouent pas par manque de passion.",
+            "Ils echouent par manque de clarte operationnelle.",
+          ],
+          whatIDo:
+            "Il s agit de transformer un restaurant reactif en systeme d exploitation maitrise.",
+          optimizeGroups: [
+            {
+              title: "Structure Financiere",
+              items: [
+                "Controle du food cost",
+                "Ingenierie de menu",
+                "Analyse de marge de contribution",
+                "Detail de la structure de couts",
+              ],
+            },
+            {
+              title: "Flux Operationnel",
+              items: [
+                "Flux cuisine",
+                "Structure de service",
+                "Standardisation",
+                "Documentation des processus",
+              ],
+            },
+            {
+              title: "Equipe et responsabilite",
+              items: [
+                "Clarification des roles",
+                "Cadre de performance",
+                "Parcours de formation",
+                "Alignement du leadership",
+              ],
+            },
+          ],
+          whoFor: [
+            "Proprietaires de restaurants independants",
+            "Groupes hospitality en croissance",
+            "Operateurs sous pression de marge",
+            "Concepts en preparation de scale",
+          ],
+          process: [
+            "Diagnostic",
+            "Analyse Financiere et Operationnelle",
+            "Refonte du Systeme",
+            "Support d Implementation",
+          ],
+          positioning:
+            "L objectif est une marge previsible, des couts controles, une operation sereine et une structure scalable.",
+        },
+      },
+    ],
     servicePanel: {
       whatIDo: "Ce que je fais vraiment",
       whatIOptimize: "Ce que j optimise",
@@ -374,7 +609,24 @@ export const siteCopy: Record<Locale, SiteCopy> = {
       positioning: "Couche de positionnement",
     },
     processTitle: "Processus",
-    steps: [],
+    steps: [
+      {
+        title: "Diagnostiquer",
+        text: "Cartographier contraintes et opportunites avec une clarte totale.",
+      },
+      {
+        title: "Architecturer",
+        text: "Concevoir des systemes adaptes a votre equipe et vos operations reelles.",
+      },
+      {
+        title: "Implementer",
+        text: "Deployer outils, routines et responsabilite au niveau execution.",
+      },
+      {
+        title: "Optimiser",
+        text: "Mesurer les resultats, resserrer les goulets et proteger la marge.",
+      },
+    ],
     stepLabel: "Etape",
     aboutTitle: "A propos",
     aboutText:
@@ -428,7 +680,116 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     ],
     servicesTitle: "Leistungen",
     servicesKicker: "Fuer Performance gebaut",
-    services: [],
+    services: [
+      {
+        title: "Galzu baut fuer Sie - KI-Integration",
+        line: "KI-Integration als Infrastruktur",
+        bestFor: "Am besten fuer: founders und Ops-Teams",
+        bullets: [
+          "Individuelle Workflow-Automatisierung",
+          "Interne KI-Agenten",
+          "Erstellung von Landingpages",
+          "KI-gestuetzte Reporting-Dashboards",
+          "Entscheidungsunterstuetzungssysteme",
+          "Prozess-Neustrukturierung mit KI",
+          "Integration in bestehende Teams",
+        ],
+        cta: "KI-Integrationsgespraech buchen",
+        rich: {
+          intro: [
+            "KI ist kein Workshop. Keine Praesentation. Keine ChatGPT-Prompts.",
+            "Sie ist Infrastruktur.",
+          ],
+          whatIDo:
+            "Ich entwerfe und integriere KI-Systeme direkt in Ihre Geschaeftsablaeufe. Das passiert mit Ihrem Unternehmen, nicht nur als Theorie.",
+          whoFor: [
+            "Founder beim Skalieren von Operations",
+            "Unternehmen mit zu vielen repetitiven Aufgaben",
+            "Teams, die in manuellen Prozessen feststecken",
+            "Unternehmen, die Output steigern wollen ohne mehr Personal",
+          ],
+          process: [
+            "Operative Diagnose - Wir kartieren Reibung und Ineffizienzen.",
+            "Systemarchitektur - Wir entwerfen die KI-Integrationsschicht.",
+            "Implementierung - Wir bauen und integrieren direkt in Ihre Workflows.",
+            "Optimierung - Wir messen Wirkung und verfeinern.",
+          ],
+          positioning:
+            "Sie kaufen keine KI-Beratung. Sie installieren einen operativen Multiplikator.",
+        },
+      },
+      {
+        title: "Restaurantberatung",
+        line: "Struktur schuetzt Profit",
+        bestFor: "Am besten fuer: Restaurant-Eigentuemer und Operatoren",
+        bullets: [
+          "Food-Cost-Kontrolle",
+          "Menu-Engineering",
+          "Deckungsbeitragsanalyse",
+          "Aufschluesselung der Kostenstruktur",
+          "Kuechen-Workflow",
+          "Service-Struktur",
+          "Standardisierung",
+          "Prozessdokumentation",
+          "Rollenklarheit",
+          "Leistungsstruktur",
+          "Trainingsablauf",
+          "Leadership-Alignment",
+        ],
+        cta: "Restaurant-Strategiegespraech buchen",
+        rich: {
+          intro: [
+            "Restaurants scheitern nicht an fehlender Leidenschaft.",
+            "Sie scheitern an fehlender operativer Klarheit.",
+          ],
+          whatIDo:
+            "Es geht darum, ein reaktives Restaurant in ein kontrolliertes Business-System zu transformieren.",
+          optimizeGroups: [
+            {
+              title: "Finanzstruktur",
+              items: [
+                "Food-Cost-Kontrolle",
+                "Menu-Engineering",
+                "Deckungsbeitragsanalyse",
+                "Aufschluesselung der Kostenstruktur",
+              ],
+            },
+            {
+              title: "Operativer Ablauf",
+              items: [
+                "Kuechen-Workflow",
+                "Service-Struktur",
+                "Standardisierung",
+                "Prozessdokumentation",
+              ],
+            },
+            {
+              title: "Team und Verantwortung",
+              items: [
+                "Rollenklarheit",
+                "Leistungsstruktur",
+                "Trainingsablauf",
+                "Leadership-Alignment",
+              ],
+            },
+          ],
+          whoFor: [
+            "Unabhaengige Restaurant-Eigentuemer",
+            "Wachsende Hospitality-Gruppen",
+            "Operatoren unter Margendruck",
+            "Konzepte in Skalierungsvorbereitung",
+          ],
+          process: [
+            "Diagnose",
+            "Finanz- und Operationsanalyse",
+            "System-Redesign",
+            "Implementierungs-Support",
+          ],
+          positioning:
+            "Das Ziel sind planbare Margen, kontrollierte Kosten, operative Ruhe und eine skalierbare Struktur.",
+        },
+      },
+    ],
     servicePanel: {
       whatIDo: "Was ich wirklich mache",
       whatIOptimize: "Was ich optimiere",
@@ -437,7 +798,24 @@ export const siteCopy: Record<Locale, SiteCopy> = {
       positioning: "Positionierungsebene",
     },
     processTitle: "Prozess",
-    steps: [],
+    steps: [
+      {
+        title: "Diagnostizieren",
+        text: "Engpaesse und Chancen mit kompromissloser Klarheit abbilden.",
+      },
+      {
+        title: "Architektur bauen",
+        text: "Systeme entwerfen, die zu Team und realen Ablaufen passen.",
+      },
+      {
+        title: "Implementieren",
+        text: "Tools, Routinen und Verantwortung auf Execution-Ebene ausrollen.",
+      },
+      {
+        title: "Optimieren",
+        text: "Ergebnisse messen, Bottlenecks straffen und Marge schuetzen.",
+      },
+    ],
     stepLabel: "Schritt",
     aboutTitle: "Ueber",
     aboutText:
@@ -468,13 +846,3 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     footer: "The Galzu Universe",
   },
 };
-
-const fallbackServices = siteCopy.pt.services;
-const fallbackSteps = siteCopy.pt.steps;
-
-siteCopy.es.services = fallbackServices;
-siteCopy.fr.services = fallbackServices;
-siteCopy.de.services = fallbackServices;
-siteCopy.es.steps = fallbackSteps;
-siteCopy.fr.steps = fallbackSteps;
-siteCopy.de.steps = fallbackSteps;
