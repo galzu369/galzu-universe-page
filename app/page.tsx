@@ -147,7 +147,13 @@ const steps = [
   },
 ];
 
-export default function Page() {
+type PageProps = {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+};
+
+export default async function Page({ searchParams }: PageProps) {
+  const params = await searchParams;
+  const contactStatus = params.contact;
   const year = new Date().getFullYear();
 
   return (
