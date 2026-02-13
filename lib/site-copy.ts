@@ -82,6 +82,7 @@ export type SiteCopy = {
 };
 
 const calendlyCta = {
+  en: "Book a Restaurant Solutions Call",
   pt: "Marcar Chamada de Solucoes para Restaurantes",
   es: "Reservar llamada de soluciones para restaurantes",
   fr: "Reserver un appel de solutions restaurant",
@@ -89,6 +90,194 @@ const calendlyCta = {
 } as const;
 
 export const siteCopy: Record<Locale, SiteCopy> = {
+  en: {
+    metadataTitle:
+      "The Galzu Universe | AI Integration & Restaurant Consulting",
+    metadataDescription:
+      "Built by Joao Filipe Catalao. AI integration and restaurant consulting focused on execution, operational optimization, systems, and profitability.",
+    nav: [
+      { href: "#services", label: "Services" },
+      { href: "#process", label: "Process" },
+      { href: "#about", label: "About" },
+      { href: "#contact", label: "Contact" },
+    ],
+    heroBadge: "The Galzu Universe",
+    heroTitle: ["Strategy.", "Systems.", "Execution."],
+    heroDescription:
+      "Built by Joao Filipe Catalao. AI integration and restaurant consulting focused on execution, operational optimization, systems, and profitability.",
+    heroPrimaryCta: calendlyCta.en,
+    heroSecondaryCta: "View services",
+    heroPoints: [
+      "Execution over theory.",
+      "Systems over chaos.",
+      "Profitability over noise.",
+    ],
+    servicesTitle: "Services",
+    servicesKicker: "Built to perform",
+    services: [
+      {
+        title: "Galzu Builds for You - AI Integration",
+        line: "AI Integration as Infrastructure",
+        bestFor: "Best for: founders and ops teams",
+        bullets: [
+          "Custom workflow automation",
+          "Internal AI agents",
+          "Build landing pages",
+          "AI-powered reporting dashboards",
+          "Decision-support systems",
+          "Process restructuring using AI",
+          "Integration into existing teams",
+        ],
+        cta: "Book AI Integration Call",
+        rich: {
+          intro: [
+            "AI is not a workshop. It is not a presentation. It is not ChatGPT prompts.",
+            "It is infrastructure.",
+          ],
+          whatIDo:
+            "I design and integrate AI systems directly into your business operations. This is done with your business, not delivered as theory.",
+          whoFor: [
+            "Founders scaling operations",
+            "Companies drowning in repetitive tasks",
+            "Teams stuck in manual processes",
+            "Businesses ready to increase output without increasing headcount",
+          ],
+          process: [
+            "Operational Diagnosis - We map friction and inefficiencies.",
+            "System Architecture - We design the AI integration layer.",
+            "Implementation - We build and deploy directly into your workflows.",
+            "Optimization - We measure impact and refine.",
+          ],
+          positioning:
+            "You are not buying AI consulting. You are installing an operational multiplier.",
+        },
+      },
+      {
+        title: "Restaurant Consulting",
+        line: "Structure Protects Profit",
+        bestFor: "Best for: restaurant owners and operators",
+        bullets: [
+          "Food cost control",
+          "Menu engineering",
+          "Contribution margin analysis",
+          "Cost structure breakdown",
+          "Kitchen workflow",
+          "Service structure",
+          "Standardization",
+          "Process documentation",
+          "Role clarity",
+          "Performance structure",
+          "Training flow",
+          "Leadership alignment",
+        ],
+        cta: "Book Restaurant Strategy Call",
+        rich: {
+          intro: [
+            "Restaurants do not fail from lack of passion.",
+            "They fail from lack of operational clarity.",
+          ],
+          whatIDo:
+            "This is about turning a reactive restaurant into a controlled business system.",
+          optimizeGroups: [
+            {
+              title: "Financial Structure",
+              items: [
+                "Food cost control",
+                "Menu engineering",
+                "Contribution margin analysis",
+                "Cost structure breakdown",
+              ],
+            },
+            {
+              title: "Operational Flow",
+              items: [
+                "Kitchen workflow",
+                "Service structure",
+                "Standardization",
+                "Process documentation",
+              ],
+            },
+            {
+              title: "Team and Accountability",
+              items: [
+                "Role clarity",
+                "Performance structure",
+                "Training flow",
+                "Leadership alignment",
+              ],
+            },
+          ],
+          whoFor: [
+            "Independent restaurant owners",
+            "Growing hospitality groups",
+            "Operators with margin pressure",
+            "Concepts preparing to scale",
+          ],
+          process: [
+            "Diagnostic Review",
+            "Financial and Operational Analysis",
+            "System Redesign",
+            "Implementation Support",
+          ],
+          positioning:
+            "The goal is predictable margins, controlled costs, operational calm, and a scalable structure.",
+        },
+      },
+    ],
+    servicePanel: {
+      whatIDo: "What I actually do",
+      whatIOptimize: "What I optimize",
+      whoFor: "Who this is for",
+      process: "The process",
+      positioning: "Positioning layer",
+    },
+    processTitle: "Process",
+    steps: [
+      {
+        title: "Diagnose",
+        text: "Map constraints and opportunities with brutal clarity.",
+      },
+      {
+        title: "Architect",
+        text: "Design systems that match your team and real operations.",
+      },
+      {
+        title: "Implement",
+        text: "Deploy tools, routines, and accountability at execution level.",
+      },
+      {
+        title: "Optimize",
+        text: "Measure outcomes, tighten bottlenecks, and protect margin.",
+      },
+    ],
+    stepLabel: "Step",
+    aboutTitle: "About",
+    aboutText:
+      "Joao Filipe Catalao combines systems thinking with creative execution. He helps teams build practical infrastructure, improve decisions, and turn strategy into measurable outcomes.",
+    aboutCta: "Connect on LinkedIn",
+    criticalTitle: "Estado Critico (Coming Soon)",
+    criticalLine1: "Cultural branch of the Galzu Universe.",
+    criticalLine2: "Live comedy and community, currently on standby.",
+    contactTitle: "Contact",
+    form: {
+      name: "Name",
+      namePlaceholder: "Your name",
+      email: "Email",
+      emailPlaceholder: "you@company.com",
+      message: "Message",
+      messagePlaceholder: "How can we help?",
+      note: "This form is a placeholder.",
+      sentMessage: "Message sent successfully.",
+      errorMessage:
+        "Error sending message. Please try again or use Calendly.",
+      submit: "Submit",
+    },
+    contactCardTitle: "Ready to move with structure?",
+    contactCardText:
+      "Book directly on Calendly for AI integration or restaurant strategy. Start with priorities, constraints, and clear next actions.",
+    contactCardCta: calendlyCta.en,
+    footer: "The Galzu Universe",
+  },
   pt: {
     metadataTitle:
       "The Galzu Universe | Integracao de IA e Consultoria para Restaurantes",
